@@ -15,7 +15,8 @@
       "path": ...,
       "time": ...,
     }, ...
-  ]
+  ],
+  "status": "detect_request",
 }
 ```
 
@@ -55,6 +56,6 @@
       "imgs": [ ... ],
     }
   ],
-  "status": "detect",
+  "status": "detect_response",
 }
 ```
