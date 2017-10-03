@@ -16,7 +16,7 @@
       "time": ...,
     }, ...
   ],
-  "status": "detect_request",
+  "code": "detect_request",
 }
 ```
 
@@ -56,6 +56,6 @@
       "imgs": [ ... ],
     }
   ],
-  "status": "detect_response",
+  "code": "detect_response",
 }
 ```
