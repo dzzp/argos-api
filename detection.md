@@ -59,3 +59,16 @@
   "code": "detect_response",
 }
 ```
+
+# ETC
+
+video file path = '/home/Jiyoon/video/example.mp4'인 경우,
+
+detection result = '/home/Jiyoon/video/example/'에 저장
+
+    - bbox = '/home/Jiyoon/video/example/bbox/(...).jpg'
+    - feature = '/home/Jiyoon/video/example/feature/(...).txt'
+
+> 사람 A에 대한 bbox는 000001.jpg, feature는 000001.txt로 저장됨
+
+> bbox image는 crop된 형태로 저장됨
