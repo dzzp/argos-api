@@ -1,5 +1,9 @@
 # 1. Request
 
+**method:** `POST`
+
+**path:** `/detection/`
+
 ```json
 {
   "videos": [
