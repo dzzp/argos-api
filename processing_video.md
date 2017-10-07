@@ -1,3 +1,7 @@
+**method:** `GET`
+
+**path:** `/processing/`
+
 # Upload video -> Detection result
 
 ## 1. Request
