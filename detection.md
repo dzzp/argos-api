@@ -12,12 +12,14 @@
       "lng": lng_value,
       "path": video_file_path,
       "time": shot_time,
+      "memo": memo
     },
     {
       "lat": ...,
       "lng": ...,
       "path": ...,
       "time": ...,
+      "memo": memo
     }, ...
   ],
   "code": "detect_request",
@@ -33,6 +35,7 @@
       "lat": lat_value,
       "lng": lng_value,
       "path": video_file_path,
+      "memo": memo,
       "imgs": [
         {
           "time": calculated_datetime,
@@ -57,6 +60,7 @@
       "lat": ...,
       "lng": ...,
       "path": ...,
+      "memo": ...,
       "imgs": [ ... ],
     }
   ],
