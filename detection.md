@@ -26,6 +26,49 @@
 }
 ```
 
+## Example
+
+### request example 1
+
+```JSON
+{
+  "videos": [
+    {
+      "lat": 37.503585,
+      "lng": 127.044531,
+      "video_path": "/data-picker/assets/test.mp4",
+      "time": "2017-10-11T12:30",
+      "memo": "hello world"
+    },
+    {
+      "lat": 127.044531,
+      "lng": 37.503585,
+      "video_path": "/data-picker/assets/test2.mp4",
+      "time": "2017-10-14T19:30",
+      "memo": ""
+    }
+  ],
+  "code": "detect_request"
+}
+```
+
+### request example 2
+
+```JSON
+{
+  "videos": [
+    {
+      "lat": 37.503585,
+      "lng": 127.044531,
+      "video_path": "/data-picker/assets/test3.mp4",
+      "time": "2017-10-10T21:30",
+      "memo": "road view"
+    }
+  ],
+  "code": "detect_request"
+}
+```
+
 # 2. Response
 
 ```json
