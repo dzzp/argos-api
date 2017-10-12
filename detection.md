@@ -10,14 +10,14 @@
     {
       "lat": lat_value,
       "lng": lng_value,
-      "path": video_file_path,
+      "video_path": video_file_path,
       "time": shot_time,
       "memo": memo
     },
     {
       "lat": ...,
       "lng": ...,
-      "path": ...,
+      "video_path": ...,
       "time": ...,
       "memo": memo
     }, ...
@@ -80,3 +80,25 @@ detection result = '/home/Jiyoon/video/example/'에 저장
 > 사람 A에 대한 bbox는 000001.jpg, feature는 000001.txt로 저장됨
 
 > bbox image는 crop된 형태로 저장됨
+
+## Error message
+
+1. already exist
+
+```JSON
+{
+    "video_path": [
+        "video with this video path already exists."
+    ]
+}
+```
+
+2. field required
+
+```JSON
+{
+    "video_path": [
+        "This field is required."
+    ]
+}
+```
