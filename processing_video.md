@@ -8,6 +8,7 @@
 
 ```json
 {
+  "video_group": video_group_hash,
   "code": "is_detect",
 }
 ```
@@ -16,6 +17,8 @@
 
 ```json
 {
+  "total": total_video,
+  "done": done_video,
   "code": "processing_detect",
 }
 ```
