@@ -18,7 +18,8 @@
 ```json
 {
   "total": total_video,
-  "done": done_video,
+  "current": done_video,
+  "video": video_name,
   "code": "processing_detect",
 }
 ```
