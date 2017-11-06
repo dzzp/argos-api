@@ -133,6 +133,12 @@ Put new persons
     ]
 }
 ```
+** Response **
+```json
+{
+    "code": ok|error
+}
+```
 
 # /cases/`case_hash`/galleries
 
