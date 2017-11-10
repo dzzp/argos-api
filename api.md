@@ -74,7 +74,6 @@ Get videos & processed data from case
 }
 ```
 
-
 ## POST
 Upload new videos
 
@@ -97,6 +96,42 @@ Upload new videos
     "code": ok|error,
     "path": video_path,     // optional
     "detail": "File does not exist"|"Filetype error occured"    // optional
+}
+```
+
+
+# /cases/`case_hash`/videos/`video_hash`
+
+## GET
+Get video info
+
+** Response **
+```json
+{
+    "memo": memo,
+    "lat": lat,
+    "lng": lng,
+    "datetime": shot_datetime
+}
+```
+
+## PUT
+Put additional info
+
+** Request **
+```json
+{
+    "memo": memo,
+    "lat": lat,
+    "lng": lng,
+    "datetime": shot_datetime
+}
+```
+
+** Response **
+```json
+{
+    "code": "ok"
 }
 ```
 
