@@ -157,7 +157,7 @@ Get found persons
 ```
 
 ## POST
-Put new persons
+Put new found persons
 
 ** Request **
 ```json
@@ -178,6 +178,7 @@ Put new persons
 # /cases/`case_hash`/galleries
 
 ## GET
+Get candidate persons based on found persons
 ** Response **
 ```json
 {
