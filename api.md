@@ -187,7 +187,8 @@ Get candidate persons based on found persons
             "person_hash": person_hash,
             "video_hash": video_hash,
             "bbox_path": bbox_path,
-            "orig_path": orig_path
+            "orig_path": orig_path,
+            "distance": distance
         },
         {...}
     ]
