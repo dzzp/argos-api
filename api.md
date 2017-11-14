@@ -194,3 +194,19 @@ Get candidate persons based on found persons
     ]
 }
 ```
+
+# /cases/`case_hash`/processing/
+
+## GET
+Get detection processing status
+
+** Response **
+
+```json
+{
+  "total": total_video,
+  "current": done_video,
+  "video": video_name,
+  "code": "processing_detect",
+}
+```
