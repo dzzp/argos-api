@@ -97,7 +97,7 @@ Get video info
     "datetime": shot_datetime
     "imgs": [
         {
-            "datetime": calculated_datetime,
+            "timedelta": calculated_datetime,
             "persons": [
                 {
                     "hash": person_hash,
