@@ -108,6 +108,7 @@ Get video info
 ** Response **
 ```json
 {
+    "path": path,
     "memo": memo,
     "lat": lat,
     "lng": lng,
@@ -204,9 +205,7 @@ Get detection processing status
 
 ```json
 {
-  "total": total_video,
-  "current": done_video,
-  "video": video_name,
-  "code": "processing_detect",
+  "total": [video_hash, video_hash, ...],
+  "current": done_video_index,
 }
 ```
