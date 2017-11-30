@@ -60,6 +60,7 @@ Get videos & processed data from case
             "lng": lng,
             "datetime": shot_datetime,
             "video_hash": video_hash,
+            "is_detection_done": true|false,
             "imgs": [
                 {
                     "timedelta": calculated_datetime,
@@ -118,6 +119,7 @@ Get video info
     "lng": lng,
     "datetime": shot_datetime,
     "video_hash": video_hash,
+    "is_detection_done": true|false,
     "imgs": [
         {
             "timedelta": calculated_datetime,
