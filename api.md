@@ -52,7 +52,29 @@ Get videos & processed data from case
 ** Response **
 ```json
 {
-    "videos": [ video_hash, ... ]
+    "videos": [
+        {
+            "path": video_path,
+            "memo": memo,
+            "lat": lat,
+            "lng": lng,
+            "datetime": shot_datetime,
+            "video_hash": video_hash,
+            "imgs": [
+                {
+                    "timedelta": calculated_datetime,
+                    "persons": [
+                        {
+                            "hash": person_hash,
+                            "bbox_path": bbox_path,
+                            "orig_path": orig_path
+                        },
+                        {...}
+                    ]
+                }, {...}
+            ]
+        }, {...}
+    ]
 }
 ```
 
@@ -94,7 +116,8 @@ Get video info
     "memo": memo,
     "lat": lat,
     "lng": lng,
-    "datetime": shot_datetime
+    "datetime": shot_datetime,
+    "video_hash": video_hash,
     "imgs": [
         {
             "timedelta": calculated_datetime,
