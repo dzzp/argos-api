@@ -183,7 +183,11 @@ Put new found persons
 ** Request **
 ```json
 {
-    "persons": [
+    "negatives": [
+        person_hash,
+        ...
+    ],
+    "positives": [
         person_hash,
         ...
     ]
@@ -200,6 +204,7 @@ Put new found persons
 
 ## GET
 Get candidate persons based on found persons
+
 ** Response **
 ```json
 {
