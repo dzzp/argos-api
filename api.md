@@ -231,6 +231,6 @@ Get detection processing status
 ```json
 {
   "total": [video_hash, video_hash, ...],
-  "current": done_video_hash,
+  "current": currently_working_video_hash // can be '' if everything is done
 }
 ```
