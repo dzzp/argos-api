@@ -5,12 +5,12 @@
 ### GET
 Get all cases
 
-** Request **
+__Request__
 
 - `/?search=` : Return recent
 - `/?search=query` : Return search with query
 
-** Response **
+__Response__
 
 ```json
 {
@@ -29,7 +29,7 @@ Get all cases
 ### POST
 Create new case
 
-** Request **
+__Request__
 
 ```json
 {
@@ -39,7 +39,7 @@ Create new case
 }
 ```
 
-** Response **
+__Response__
 
 ```json
 {
@@ -55,7 +55,7 @@ Create new case
 ### GET
 Get videos & processed data from case
 
-** Response **
+__Response__
 
 ```json
 {
@@ -90,7 +90,7 @@ Get videos & processed data from case
 
 Upload new videos
 
-** Request **
+__Request__
 
 ```json
 {
@@ -104,7 +104,7 @@ Upload new videos
 }
 ```
 
-** Response **
+__Response__
 
 ```json
 {
@@ -120,7 +120,7 @@ Upload new videos
 ### GET
 Get video info
 
-** Response **
+__Response__
 
 ```json
 {
@@ -151,7 +151,7 @@ Get video info
 
 Put additional info
 
-** Request **
+__Request__
 
 ```json
 {
@@ -176,7 +176,7 @@ Put additional info
 ### GET
 Get found persons
 
-** Response **
+__Response__
 
 ```json
 {
@@ -195,7 +195,7 @@ Get found persons
 ### POST
 Put new found persons
 
-** Request **
+__Request__
 
 ```json
 {
@@ -210,7 +210,7 @@ Put new found persons
 }
 ```
 
-** Response **
+__Response__
 
 ```json
 {
@@ -223,7 +223,7 @@ Put new found persons
 ### GET
 Get candidate persons based on found persons
 
-** Response **
+__Response__
 
 ```json
 {
@@ -245,7 +245,7 @@ Get candidate persons based on found persons
 ### GET
 Get detection processing status
 
-** Response **
+__Response__
 
 ```json
 {
